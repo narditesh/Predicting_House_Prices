@@ -1,4 +1,4 @@
-# 🏡 Predicting_House_Prices
+# 🏡 Predicting House Prices
 This project builds and evaluates machine learning models (Linear Regression, Ridge, and LASSO) to predict house prices using various property features.
 # 📌 Overview
 
@@ -9,7 +9,7 @@ The goal is to understand feature relationships, improve model performance, and 
 
 The dataset contains numerical features related to houses (e.g., Lot Size, bedrooms, house Age, etc.) and the target variable House_Price.
 
-# 🔍 Key steps performed:
+# 🔍 Key steps performed
 
 Data inspection using df.info(), df.describe(), and shape analysis
 
@@ -51,7 +51,7 @@ Ridge Regression
 
 LASSO Regression
 
-# 📏 Evaluation metrics:
+# 📏 Evaluation metrics
 
 R² Score
 
@@ -63,9 +63,11 @@ RMSE
 
 Both Ridge Regression and LASSO Regression produced very similar results when predicting house prices. The performance comparison is shown below:
 
-Model	   Train R² 	 Test R²
-LASSO	   0.6937	     0.5335
-Ridge	   0.6936	     0.5337
+| Model | Train R² | Test R²|
+|-------|----------|--------|
+| LASSO | 0.6937   | 0.5335 |
+| Ridge | 0.6936   | 0.5337 |
+
 
 # 🔍 Interpretation
 
@@ -76,6 +78,14 @@ Ridge Regression performed slightly better on the test data, but the difference 
 Train and test scores are close, which shows the model is not overfitting.
 
 Regularization (Ridge/LASSO) did not significantly change performance, meaning the dataset is fairly stable.
+
+# ▶️ How to Run
+
+1. Open the notebook in Google Colab:
+   [house_prices_portfolio.ipynb](https://colab.research.google.com/github/narditesh/Predicting_House_Prices/blob/main/house_prices_portfolio.ipynb)
+   
+2.  If running locally, clone the repository:  
+   git clone https://github.com/narditesh/Predicting_House_Prices.git    
 
 # ✔️ Conclusion
 
