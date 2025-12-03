@@ -58,3 +58,25 @@ R² Score
 MSE
 
 RMSE
+
+# 📊 Results
+
+Both Ridge Regression and LASSO Regression produced very similar results when predicting house prices. The performance comparison is shown below:
+
+Model	   Train R² 	 Test R²
+LASSO	   0.6937	     0.5335
+Ridge	   0.6936	     0.5337
+
+# 🔍 Interpretation
+
+The models explain about 53% of the variation in house prices — a moderate level of predictive power.
+
+Ridge Regression performed slightly better on the test data, but the difference is very small.
+
+Train and test scores are close, which shows the model is not overfitting.
+
+Regularization (Ridge/LASSO) did not significantly change performance, meaning the dataset is fairly stable.
+
+# ✔️ Conclusion
+
+Ridge is chosen as the final model because of its slightly higher test score and smoother coefficient behavior. The trained Ridge model is saved using joblib for future use.
