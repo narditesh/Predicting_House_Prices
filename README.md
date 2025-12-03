@@ -1,15 +1,15 @@
-# Predicting_House_Prices
+# 🏡 Predicting_House_Prices
 This project builds and evaluates machine learning models (Linear Regression, Ridge, and LASSO) to predict house prices using various property features.
-# Overview
+# 📌 Overview
 
 This project builds and evaluates machine learning models Linear Regression, Ridge Regression, and LASSO Regression to predict house prices based on different property features.
 The goal is to understand feature relationships, improve model performance, and compare regularized models.
 
-# Dataset
+# 📊 Dataset
 
 The dataset contains numerical features related to houses (e.g., Lot Size, bedrooms, house Age, etc.) and the target variable House_Price.
 
-# Key steps performed:
+# 🔍 Key steps performed:
 
 Data inspection using df.info(), df.describe(), and shape analysis
 
@@ -25,7 +25,7 @@ Regularization (Ridge & LASSO)
 
 Saving the best model using joblib
 
-# Technologies Used
+# 🛠️ Technologies Used
 
 Python
 
@@ -41,7 +41,7 @@ statsmodels
 
 Joblib
 
-# Model Training
+# 🤖 Model Training
 
 Models implemented:
 
@@ -51,7 +51,7 @@ Ridge Regression
 
 LASSO Regression
 
-# Evaluation metrics:
+# 📏 Evaluation metrics:
 
 R² Score
 
