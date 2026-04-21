@@ -71,7 +71,7 @@ Both Ridge Regression and LASSO Regression produced very similar results when pr
 
 # 🔍 Interpretation
 
-The models explain about 53% of the variation in house prices — a moderate level of predictive power.
+The models explain about 53% of the variation in house prices a moderate level of predictive power.
 
 Ridge Regression performed slightly better on the test data, but the difference is very small.
 
